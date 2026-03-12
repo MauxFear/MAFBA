@@ -1,0 +1,23 @@
+{
+  "analysis_name": "A01_kcat_monte_carlo_gamma_sweep",
+  "date": "2025-11-24T19:56:43.824327",
+  "solver": "gurobi",
+  "n_iterations_per_gamma": 500,
+  "gamma_values": [
+    1.0,
+    0.25,
+    0.3,
+    0.35,
+    0.15
+  ],
+  "n_gamma_values": 5,
+  "total_iterations": 2500,
+  "kcat_threshold": 10000000.0,
+  "cv": 1,
+  "cv_percentage": "100.0%",
+  "model_path": "/Users/MauxGB/Code/MATLAB/Membrane_Allocation/MAFBA_Revision/model/mafba_iML1515_ecV0_g1_AlterDfv2.xml",
+  "kcat_data_path": "/Users/MauxGB/Code/MATLAB/Membrane_Allocation/MAFBA_Revision/data/attributes_model_ecModel_iML1515_AlterDfv2V0_g_1_v3.xlsx",
+  "n_reactions_sampled": 2193,
+  "baseline_membrane_bound": 0.484,
+  "runtime_seconds": 5783.187975
+}

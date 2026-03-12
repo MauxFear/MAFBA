@@ -1,0 +1,37 @@
+{
+  "analysis_id": "A02",
+  "timestamp": "2025-11-25T08:59:10.491509",
+  "model_path": "/Users/MauxGB/Code/MATLAB/Membrane_Allocation/MAFBA_Revision/model/mafba_iML1515_ecV0_g1_AlterDfv2.xml",
+  "attributes_path": "/Users/MauxGB/Code/MATLAB/Membrane_Allocation/MAFBA_Revision/data/attributes_model_ecModel_iML1515_AlterDfv2V0_g_1_v3.xlsx",
+  "solver": "gurobi",
+  "parameters": {
+    "export_fractions": [
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "gamma_values": [
+      1.0,
+      0.35,
+      0.3,
+      0.25,
+      0.2,
+      0.15
+    ],
+    "acetate_threshold": 0.01,
+    "n_glucose_points": 40,
+    "glucose_range": [
+      0.2,
+      35.0
+    ]
+  },
+  "model_info": {
+    "ribosome_cost": 0.169,
+    "baseline_membrane_coeff": 0.0,
+    "phi_max": 0.484,
+    "n_reactions": 3690,
+    "n_metabolites": 1883
+  },
+  "output_directory": "/Users/MauxGB/Code/MATLAB/Membrane_Allocation/MAFBA_Revision/outputs/A02_sec_tat_membrane_sensitivity/2025-11-25_08-57-39"
+}

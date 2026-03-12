@@ -1,0 +1,31 @@
+{
+  "analysis_name": "A01b_kcat_monte_carlo_membrane_only",
+  "analysis_type": "membrane_reactions_only",
+  "membrane_sectors": [
+    "phiEm",
+    "phiEr",
+    "phiCm"
+  ],
+  "date": "2025-11-24T19:55:03.809454",
+  "solver": "gurobi",
+  "n_iterations_per_gamma": 500,
+  "gamma_values": [
+    1.0,
+    0.35,
+    0.3,
+    0.25,
+    0.2,
+    0.15
+  ],
+  "n_gamma_values": 6,
+  "total_iterations": 3000,
+  "kcat_threshold": 10000000.0,
+  "cv": 0.05,
+  "cv_percentage": "5.0%",
+  "model_path": "/Users/MauxGB/Code/MATLAB/Membrane_Allocation/MAFBA_Revision/model/mafba_iML1515_ecV0_g1_AlterDfv2.xml",
+  "kcat_data_path": "/Users/MauxGB/Code/MATLAB/Membrane_Allocation/MAFBA_Revision/data/attributes_model_ecModel_iML1515_AlterDfv2V0_g_1_v3.xlsx",
+  "n_membrane_reactions_sampled": 610,
+  "n_total_membrane_reactions": 618,
+  "baseline_membrane_bound": 0.484,
+  "runtime_seconds": 5331.258089
+}
