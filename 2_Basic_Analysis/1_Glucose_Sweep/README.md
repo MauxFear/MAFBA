@@ -4,8 +4,6 @@ There are two entry points:
 - `run_glucose_sweep_parametrized.m`: default sweep using `sigma_mode = 'parametrized_totalweight'`
 - `run_glucose_sweep_homogeneous.m`: figure-compatible homogeneous sweep using `sigma_mode = 'homogeneous'`
 
-`run_glucose_sweep.m` is now just a compatibility wrapper for `run_glucose_sweep_parametrized.m`.
-
 The shared loader builds the working ec-model from the prepared model in `../../1_Model_Construction/02_MATLAB_Build/output/`. The returned model includes `protGroup`, allocation weights, and the irreversible exchange reactions expected by `get_pFBAsolution_ec_model`.
 
 Both scripts follow the revision glucose-sweep logic used in A03/A04:
