@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use these data or analyses, please cite the article below."
+title: "Membrane and Proteome Allocation Constraints in Escherichia coli Models during Overflow Metabolism"
+type: dataset
+license: CC-BY-4.0
+abstract: >-
+  Data and analysis materials associated with the article "Membrane and
+  Proteome Allocation Constraints in Escherichia coli Models during Overflow
+  Metabolism."
+authors:
+  - family-names: Garcia-Benitez
+    given-names: Mauricio
+    affiliation: "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Toronto, ON, Canada"
+  - family-names: Scott
+    given-names: Matthew
+    affiliation: "Department of Applied Mathematics, University of Waterloo, Waterloo, ON, Canada"
+  - family-names: Carlson
+    given-names: Ross
+    affiliation: "Department of Chemical and Biological Engineering, Montana State University, Bozeman, MT, USA"
+  - family-names: Mahadevan
+    given-names: Radhakrishnan
+    affiliation: "Department of Chemical Engineering and Applied Chemistry, University of Toronto, Toronto, ON, Canada"
+    email: "krishna.mahadevan@utoronto.ca"
+keywords:
+  - flux balance analysis
+  - membrane allocation
+  - proteome allocation
+  - Escherichia coli
+  - systems biology
+preferred-citation:
+  type: article
+  title: "Membrane and Proteome Allocation Constraints in Escherichia coli Models during Overflow Metabolism"
+  authors:
+    - family-names: Garcia-Benitez
+      given-names: Mauricio
+    - family-names: Scott
+      given-names: Matthew
+    - family-names: Carlson
+      given-names: Ross
+    - family-names: Mahadevan
+      given-names: Radhakrishnan
+  journal: "Biophysical Journal"
+  status: "submitted"
